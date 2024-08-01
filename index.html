@@ -189,6 +189,7 @@
                grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
                padding: 15px 15px;
                font-size: smaller;
+               font-family: sans-serif;
 
     
         }
@@ -227,7 +228,7 @@
             color: #FFFFFFFF;
         }
         .hr-line{
-            width: 1199px;
+            /* width: 1199px; */
             border: 1px solid white;
         }
 
@@ -292,8 +293,20 @@ top:30px;
 
 
         
+  @media (max-width:440px){
+    .hr-line{
+        width: 380px;
+        border: 1px solid white;
+    } 
 
-        
+  }
+  @media (min-width:992px){
+    .hr-line{
+        width: 900x;
+        border: 1px solid white;
+    } 
+
+  }
         
 
     </style>
